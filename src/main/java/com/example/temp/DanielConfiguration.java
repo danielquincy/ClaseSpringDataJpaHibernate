@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 public class DanielConfiguration {
 
     @Bean
-    public DataSource getDataSourve(){
+    public DataSource getDataSource(){
         DataSourceBuilder oData = DataSourceBuilder.create();
         oData.url("jdbc:sqlserver://192.168.10.136;databaseName=PRUEBA;trustServerCertificate=true");
         oData.username("UCEM_IRENE");
