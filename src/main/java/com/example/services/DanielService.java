@@ -1,7 +1,7 @@
 package com.example.services;
 
-import com.example.entity.DanielDto;
-import com.example.repo.dao.DanielDAO;
+import com.example.model.entity.DanielDto;
+import com.example.model.repo.dao.DanielDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
